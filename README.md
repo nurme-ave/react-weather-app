@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Weather App - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal project built by [Ave Nurme](https://www.avenurme.dev).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Project Description](#project-description)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This was my React project in which I practiced the React useEffect Hook.
 
-### `npm test`
+I am using the Weather API to fetch weather data in useEffect(). As a second parameter I have passed the URL in useEffect() so it runs when the URL has changed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I also have 2 useState Hooks. One of them tracks the state of the user input and the other one tracks the URL.
 
-### `npm run build`
+New things learned:
+- side effects in React
+- useEffect() Hook
+- using useState() with useEffect()
+- setting new data fetched from the API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The page was built first for desktop and then I optimized it for mobile view.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I'm also the author of the design of this page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Screenshot
 
-### `npm run eject`
+![Screenshot of my solution](/src/images/travel-journal_760.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Links
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Live Site URL: [GitHub Pages](https://nurme-ave.github.io/react-travel-journal/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ReactJS
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Ave Nurme](https://www.avenurme.dev)
+- Twitter - [@ave\_nurme](https://twitter.com/ave_nurme) - Follow me doing my 3rd round of the 100DaysOfCode challenge!
+- Linkedin - [Ave Nurme](https://www.linkedin.com/in/ave-nurme)
+- YouTube - [Ave Nurme](https://www.youtube.com/channel/UC_kKIEE66Wa5bAxjqoI1A8w/videos)
+- Github - [@nurme-ave](https://github.com/nurme-ave)
+- Frontend Mentor - [@nurme-ave](https://www.frontendmentor.io/profile/nurme-ave)

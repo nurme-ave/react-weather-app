@@ -13,7 +13,7 @@
   align-items: flex-end;
   width: 50%;
   min-height: 100vh;
-  gap: .5em;
+  gap: 1em;
   padding: 0 5em 0 1em;
   background-color: rgba(0, 0, 0, .7);
 }
@@ -140,8 +140,7 @@ input {
   .section {
     align-items: center;
     width: 100%;
-    gap: 1em;
-    padding: 1em;
+    padding: 5em 1em 1em;
   }
 
   input {
@@ -162,7 +161,6 @@ input {
 @media screen and (max-width: 700px) {
   .section {
     justify-content: flex-start;
-    padding: 5em 1em 1em;
   }
 
   .weather-heading {
