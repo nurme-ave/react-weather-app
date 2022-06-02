@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  width: 60%;
+  width: 50%;
   height: 100vh;
   gap: .5em;
   padding-right: 5em;
@@ -67,7 +67,8 @@ input {
   opacity: .9;
 }
 
-.temp-icon {
+.span-temp-icon {
+  margin-left: .2em;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
 }
