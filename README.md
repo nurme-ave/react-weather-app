@@ -17,7 +17,7 @@ This is a personal project built by [Ave Nurme](https://www.avenurme.dev).
 
 This was my React project in which I practiced the React useEffect Hook.
 
-I'm using the Weather API to fetch weather data in useEffect(). As a second parameter I have passed the URL in useEffect() so it runs when the URL has changed.
+I'm using the Weather API to fetch weather data in useEffect(). I have passed the URL as a second parameter into useEffect() so it runs when the URL has changed.
 
 I also have 2 useState Hooks. One of them tracks the state of the user input and the other one tracks the URL.
 
