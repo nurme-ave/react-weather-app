@@ -3,7 +3,7 @@
   min-height: 100vh;
   color: #fff;
   background: url("https://source.unsplash.com/JGIDk3b-4N4") no-repeat center/cover;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .section {

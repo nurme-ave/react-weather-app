@@ -33,11 +33,11 @@ I'm also the author of the design of this page.
 
 ### Screenshot
 
-![Screenshot of my solution](/src/images/travel-journal_760.png)
+![Screenshot of my solution](/src/images/weather-app_760.png)
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://nurme-ave.github.io/react-travel-journal/)
+- Live Site URL: [GitHub Pages](https://react-weather-app-weld.vercel.app/)
 
 ### Built with
 
