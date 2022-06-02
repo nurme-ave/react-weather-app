@@ -76,20 +76,20 @@ function App() {
               <img src={weatherData.condIcon} alt="weather-icon" />
             </div>
             <p>
-              <span className="span-temp">{weatherData.tempC}</span>
-              <span className="span-temp-icon">&#8451;</span>
-              <span className="span-slash">/</span>
-              <span className="span-temp">{weatherData.tempF}</span>
-              <span className="span-temp-icon">&#x2109;</span>
+              <span className="span-temperature">{weatherData.tempC}</span>
+              <span className="span-temperature-icon">&#8451;</span>
+              <span className="span-temperature-slash">/</span>
+              <span className="span-temperature">{weatherData.tempF}</span>
+              <span className="span-temperature-icon">&#x2109;</span>
             </p>
-            <p className="wind-humidity">
-              <span className="span-wind">Wind speed: </span>
+            <p className="wind-and-humidity">
+              <span className="span-wind-and-humidity">Wind speed: </span>
               {weatherData.windKph} kmh
-              <span className="span-slash-2">/</span>
+              <span className="span-wind-and-humidity-slash">/</span>
               {weatherData.windMph} mph
             </p>
-            <p className="wind-humidity">
-              <span className="span-wind">Humidity:</span>{' '}
+            <p className="wind-and-humidity">
+              <span className="span-wind-and-humidity">Humidity:</span>{' '}
               {weatherData.humidity}%
             </p>
             <p className="link-back">

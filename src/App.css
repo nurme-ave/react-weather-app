@@ -33,73 +33,6 @@ input {
   outline: 0;
 }
 
-.span-heading {
-  display: block;
-  color: yellowgreen;
-}
-
-.span-temp {
-  font-size: 3rem;
-}
-
-.span-slash {
-  font-size: 1.4rem;
-  margin: 0 .5em;
-}
-
-.span-slash-2 {
-  font-size: 1rem;
-  margin: 0 .5em;
-}
-
-.weather-section {
-  text-align: right;
-  font-weight: 500;
-  width: 100%;
-}
-
-.weather-heading {
-  margin-bottom: 1em;
-  font-size: 2rem;
-}
-
-.weather-body {
-  opacity: .9;
-}
-
-.span-temp-icon {
-  margin-left: .2em;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.6rem;
-}
-
-.weather-condition {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: .5em;
-  margin-bottom: .5em;
-  font-size: 1.8rem;
-}
-
-.wind-humidity {
-  font-size: 1.6rem;
-}
-
-.link-back {
-  margin-top: 3em;
-  opacity: .8;
-}
-
-.link-back a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.span-wind {
-  font-size: 1.3rem;
-}
-
 .submit-button {
   margin-bottom: 1em;
   padding: .5em .75em;
@@ -118,4 +51,71 @@ input {
 .submit-button:active {
   color: #000;
   background-color: #fff;
+}
+
+.weather-section {
+  text-align: right;
+  font-weight: 500;
+  width: 100%;
+}
+
+.weather-heading {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.span-heading {
+  display: block;
+  color: yellowgreen;
+}
+
+.weather-body {
+  opacity: .9;
+}
+
+.weather-condition {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .5em;
+  margin-bottom: .5em;
+  font-size: 1.8rem;
+}
+
+.span-temperature {
+  font-size: 3rem;
+}
+
+.span-temperature-icon {
+  margin-left: .2em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+
+.span-temperature-slash {
+  font-size: 1.4rem;
+  margin: 0 .5em;
+}
+
+.wind-and-humidity {
+  font-size: 1.6rem;
+}
+
+.span-wind-and-humidity {
+  font-size: 1.3rem;
+}
+
+.span-wind-and-humidity-slash {
+  font-size: 1rem;
+  margin: 0 .5em;
+}
+
+.link-back {
+  margin-top: 3em;
+  opacity: .8;
+}
+
+.link-back a {
+  text-decoration: none;
+  color: #fff;
 }
