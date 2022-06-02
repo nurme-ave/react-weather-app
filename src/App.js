@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 function App() {
   const apiKey = '24649dff78554e63950172711223105';
   const [input, setInput] = useState('Tallinn');
+  const [url, setUrl] = useState(
+    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Tallinn&aqi=no`
+  )
   const [weatherData, setWeatherData] = useState({
     city: '',
     country: '',
@@ -17,8 +20,9 @@ function App() {
   });
 
   useEffect(() => {
+    console.log(url)
     fetch(
-      `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`
+      url
     )
       .then((res) => res.json())
       .then((data) =>
@@ -34,23 +38,28 @@ function App() {
           humidity: data.current.humidity,
         })
       );
-  }, [input]);
+  }, [url]);
 
-  function handleInput(e) {
-    setInput(e.target.value);
-  }
+  // function handleInput(e) {
+  //   e.preventDefault();
+  //   console.log(e.target.value)
+  //   setInput(e.target.value);
+  // }
 
   return (
     <main className="main-container">
       <section className="section">
-        <div className="input-section">
+        <div className="input-section" >
           <input
             type="text"
             placeholder="City"
-            name="location"
-            onChange={handleInput}
+            onChange={e => setInput(e.target.value)}
           />
         </div>
+          <button onClick={
+          () =>
+          setUrl(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`)
+        } className="submit-button">Search</button>
         <div className="weather-section">
           <h2 className="weather-heading">
             Current weather for <span className="span-heading">{weatherData.city}, {weatherData.country}</span>

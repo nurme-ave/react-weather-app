@@ -9,10 +9,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 50%;
+  align-items: flex-end;
+  width: 60%;
   height: 100vh;
-  gap: 4em;
+  gap: .5em;
   padding-right: 5em;
   background-color: rgba(0, 0, 0, .7);
 }
@@ -26,7 +26,7 @@
 input {
   height: 3em;
   text-align: right;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-right: 1em;
   border: none;
   border-radius: .5em;
@@ -97,4 +97,24 @@ input {
 
 .span-wind {
   font-size: 1.3rem;
+}
+
+.submit-button {
+  margin-bottom: 1em;
+  padding: .5em .75em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: .5em;
+  color: #000;
+  background-color: yellowgreen;
+  outline: 0;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  color: #000;
+  background-color: #fff;
 }
