@@ -3,6 +3,7 @@
   min-height: 100vh;
   color: #fff;
   background: url("https://source.unsplash.com/JGIDk3b-4N4") no-repeat center/cover;
+  overflow-y: hidden;
 }
 
 .section {
@@ -125,7 +126,7 @@ input {
 @media screen and (max-width: 1500px) {
   .section {
     width: 60%;
-    padding: 0 3em 0 1em;
+    padding: 1em 3em 1em;
   }
 }
 
