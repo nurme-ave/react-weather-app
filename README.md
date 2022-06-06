@@ -21,6 +21,8 @@ I'm using the Weather API to fetch weather data in useEffect(). I have passed th
 
 I also have two useState Hooks. One of them tracks the state of the user input and the other one tracks the URL.
 
+It's important to note here that the fetch request is sent when the Submit button is hit with a new input. This means that while the user is typing no fetch requests are made. The latter would mean making a fetch request on every key stroke which does not seem very optimized.
+
 New things learned:
 - side effects in React
 - useState and useEffect Hooks
