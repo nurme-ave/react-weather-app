@@ -33,6 +33,7 @@ The page was built first for desktop and then I optimized it for mobile view.
 
 I'm also the author of the design of this page.
 
+
 ### Screenshot
 
 ![Screenshot of my solution](/src/images/weather-app_760.png)
