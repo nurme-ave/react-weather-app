@@ -2,7 +2,6 @@ import './App.css';
 import { useState, useEffect } from 'react';
 
 function App() {
-  // const apiKey = '24649dff78554e63950172711223105';
   const API_KEY = process.env.REACT_APP_API_KEY
   const [input, setInput] = useState('Tallinn');
   const [url, setUrl] = useState(
