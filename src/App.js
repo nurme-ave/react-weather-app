@@ -2,10 +2,11 @@ import './App.css';
 import { useState, useEffect } from 'react';
 
 function App() {
-  const apiKey = '24649dff78554e63950172711223105';
+  // const apiKey = '24649dff78554e63950172711223105';
+  const API_KEY = process.env.REACT_APP_API_KEY
   const [input, setInput] = useState('Tallinn');
   const [url, setUrl] = useState(
-    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`
+    `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input}&aqi=no`
   );
   const [weatherData, setWeatherData] = useState({
     city: '',
@@ -55,7 +56,7 @@ function App() {
         <button
           onClick={() =>
             setUrl(
-              `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`
+              `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input}&aqi=no`
             )
           }
           className="submit-button"
