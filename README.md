@@ -15,7 +15,7 @@ This is a personal project built by [Ave Nurme](https://www.avenurme.dev).
 
 ### Project Description
 
-What's a portfolio without a good old weather app, right? :)
+What's a portfolio without a good old weather app, right? :) Are you just heading out or packing for a holiday? No worries - this app has got you covered! :)
 
 In this React project I'm using the Weather API to fetch weather data in useEffect(). I'm passing the fetch URL into the dependency array (the second parameter in useEffect()) so useEffect() runs when the URL changes. I'm also setting all the weather data properties in the useEffect() hook.
 
