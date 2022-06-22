@@ -15,24 +15,15 @@ This is a personal project built by [Ave Nurme](https://www.avenurme.dev).
 
 ### Project Description
 
-This was my React project in which I practiced the React useState and useEffect Hooks.
+What's a portfolio without a good old weather app, right? :)
 
-I'm using the Weather API to fetch weather data in useEffect(). I have passed the URL as a second parameter into useEffect() so it runs when the URL has changed.
+In this React project I'm using the Weather API to fetch weather data in useEffect(). I'm passing the fetch URL into the dependency array (the second parameter in useEffect()) so useEffect() runs when the URL changes. I'm also setting all the weather data properties in the useEffect() hook.
 
-I also have two useState Hooks. One of them tracks the state of the user input and the other one tracks the URL.
+I also have 2 useState hooks. One of them tracks the state of the user input and the other one tracks the state of the URL.
 
 It's important to note here that the fetch request is sent when the Search button is hit with a new input. This means that no fetch requests are made while the user is typing. The latter would mean making a fetch request on every key stroke which does not seem very optimized.
 
-New things learned:
-- side effects in React
-- useState and useEffect Hooks
-- using useState() with useEffect()
-- setting new data fetched from the API
-
-The page was built first for desktop and then I optimized it for mobile view.
-
-I'm also the author of the design of this page.
-
+The page was built first for desktop and then I optimized it for smaller screens.
 
 ### Screenshot
 
