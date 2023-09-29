@@ -40,8 +40,5 @@ The page was built first for desktop and then I optimized it for smaller screens
 ## Author
 
 - Website - [Ave Nurme](https://www.avenurme.dev)
-- Twitter - [@ave\_nurme](https://twitter.com/ave_nurme) - Follow me doing my 3rd round of the 100DaysOfCode challenge!
-- Linkedin - [Ave Nurme](https://www.linkedin.com/in/ave-nurme)
-- YouTube - [Ave Nurme](https://www.youtube.com/channel/UC_kKIEE66Wa5bAxjqoI1A8w/videos)
 - Github - [@nurme-ave](https://github.com/nurme-ave)
-- Frontend Mentor - [@nurme-ave](https://www.frontendmentor.io/profile/nurme-ave)
+
